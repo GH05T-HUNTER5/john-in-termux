@@ -1,9 +1,9 @@
 system "clear"
 def main()
   system "setups-gh05t --banners --termux --john"
-  puts "[01] Setup john"
-  puts "[02] Uninstall john"
-  puts "[00] Exit"
+  puts " [01] Setup john"
+  puts " [02] Uninstall john"
+  puts " [00] Exit"
   printf "Enter your choice : "
   inputs = gets.chomp
   if inputs == "01" || inputs == "1"
